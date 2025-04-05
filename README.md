@@ -10,13 +10,6 @@ Reproduire la maquette de la landing page de Lomé Digital School en utilisant u
 4. Assurez-vous que votre site est responsive (s'adapte aux différentes tailles d'écran)
 5. Optimisez vos images et ressources pour une performance optimale
 
-## Éléments à reproduire
-- Header avec navigation
-- Section hero (bannière principale)
-- Sections de contenu
-- Galerie d'images
-- Formulaires
-- Footer
 
 ## Critères d'évaluation
 - Fidélité à la maquette originale
