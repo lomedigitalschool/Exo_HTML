@@ -1,9 +1,3 @@
-/* reinitialisation des styles */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 /* declarations des variables  */
 :root {
   --bg-color: #f4f4f4;
@@ -15,11 +9,19 @@
   --font-weight-bold: 900;
   --font-weight-medium: 700;
   --font-weight-small: 400;
+  --transition: 0.3s ease;
+}
+
+/* reinitialisation des styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font);
 }
 
 body {
   background-color: var(--bg-color);
-  font-family: var(--font);
   font-weight: var(--font-weight-std);
   display: flex;
   justify-content: center;
@@ -46,7 +48,7 @@ a {
   text-decoration: none;
   color: var(--higlighting2-color);
   margin: 6px 24px;
-  transition: 0.3s ease;
+  transition: var(--transition);
   font-weight: var(--font-weight-std);
 }
 a:hover {
@@ -112,5 +114,4 @@ a:focus {
 }
 .hero-btn:hover {
   color: var(--higlighting2-color);
-  transform: scale(1.2);
 }
