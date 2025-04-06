@@ -37,13 +37,12 @@ header img {
 .button {
   border-radius: 8px;
   padding: 10px 20px;
-  
+
   
 }
 
 
 .hero {
-
   display: flex;
   justify-content: space-between;
   align-items: center;
