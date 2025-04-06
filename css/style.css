@@ -29,23 +29,23 @@ body {
 header {
   width: 1376px;
   height: 817px;
-  margin: 5px 32px 0 32px;
-  position: absolute;
+  margin: 5px 0 32px;
 }
 
 .navbar {
-  width: 100%;
+  width: 1240px;
   height: 113px;
   margin: 39px 68px 0 68px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 a {
   text-decoration: none;
   color: var(--higlighting2-color);
-  margin: 6px 10px;
+  margin: 6px 24px;
   transition: 0.3s ease;
   font-weight: var(--font-weight-std);
 }
@@ -62,6 +62,7 @@ a:focus {
   background-color: var(--bg2-color);
   border-radius: 73px;
   font-weight: var(--font-weight-bold);
+  transform: translateX(5px);
 }
 .nav-btn:hover {
   transform: scale(1.2);
@@ -77,12 +78,12 @@ a:focus {
 
 .hero-text {
   /* padding-left: 50px; */
-  width: 560px;
+
+  width: 558px;
   margin: 0 68px 0 68px;
   text-align: left;
   font-size: 60px;
-  height: 553px;
-  transform: translateX(15%);
+  height: 465px;
 }
 .smallText {
   margin-top: 2em;
@@ -110,6 +111,6 @@ a:focus {
   font-size: 16px;
 }
 .hero-btn:hover {
-  color: var(--bg2-color);
+  color: var(--higlighting2-color);
   transform: scale(1.2);
 }
