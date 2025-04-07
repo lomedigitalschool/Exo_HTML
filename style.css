@@ -1,7 +1,182 @@
-header{
-    width: 684;
-    height: 690;
-    top: 127px;
-    left: 665px;
 
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap');
+
+body {
+  font-family: 'Raleway', sans-serif;
+
+}
+.sec1{
+  width: 1376;
+  height: 817;
+  top: 5px;
+  left: 32px;
+  border-radius: 40px;
+  background-color: #f0f0f0;
+
+}
+.navbar {
+  background-color:#f0f0f0;
+  padding: 20px 0;
+  border-bottom: 1px solid #f0f0f0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  font-family:'Raleway', sans-serif; 
+}
+
+.nav-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+
+.logo img {
+  width: 169;
+  height: 113;
+}
+
+
+.nav-links {
+  width: 617;
+  height: 36;
+  gap: 24px;
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  font-family: 'Raleway';
+}
+
+.nav-links a {
+  width: 137;
+  height: 24;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-decoration: none;
+  color: #111;
+  font-weight: 400;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.nav-links a.active {
+  width: 58;
+  height: 24;
+  font-family: 'Raleway';
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0px;
+  color: #00aeb0;
+}
+
+.nav-links a:hover {
+  color: #00aeb0;
+}
+
+.btn-postulez {
+  width: 85;
+  height: 28;
+ width: 149;
+  height: 52;
+  border-radius: 73px;
+  gap: 10px;
+  padding-top: 12px;
+  padding-right: 32px;
+  padding-bottom: 12px;
+  padding-left: 32px;
+  font-family:'Raleway';
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: center;
+  
+  background-color: #ffffff;
+  color: #00aeb0;
+  text-decoration: none;
+  border: none;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-postulez:hover {
+  text-decoration-line: underline;
+  transform: translateY(-2px);
+}
+.hero-text{
+  background-color: #f0f0f0;
+  width: 558;
+  height: 465;
+  top: 216px;
+  left: 68px;
+  gap: 32px;
+  
+
+}
+
+section { 
+   background-color: #f0f0f0;
+  padding: 60px 20px;
+}
+
+.hero {
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f0f0f0
+  padding: 80px 40px;
+}
+
+.hero-text h1 {
+  font-size: 2.5rem;
+}
+
+.hero-text span {
+  color:skyblue;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 24px;
+  background-color:skyblue;
+  color: #fff;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.presentation, .avantages {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.avantages ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+.formations .cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.cta {
+  text-align: center;
+  background: #e6f6ff;
+  padding: 60px 20px;
 }
