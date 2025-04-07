@@ -10,6 +10,7 @@
   --font-weight-medium: 700;
   --font-weight-small: 400;
   --transition: 0.3s ease;
+  --transform: scale(1.1);
 }
 
 /* reinitialisation des styles */
@@ -25,13 +26,16 @@ body {
   font-weight: var(--font-weight-std);
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-flow: column;
   font-size: 16px;
 }
 /* HEADER */
 header {
   width: 1376px;
   height: 817px;
-  margin: 5px 0 32px;
+  margin-top: 5px;
+  transform: var(--transform);
 }
 
 .navbar {
@@ -114,4 +118,56 @@ a:focus {
 }
 .hero-btn:hover {
   color: var(--higlighting2-color);
+}
+
+.separator {
+  position: relative;
+  left: 0;
+  right: 0;
+  width: 100vw;
+}
+
+main {
+  width: 1376px;
+  height: 100%;
+  margin-top: 3%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  /* transform: var(--transform); */
+}
+
+.section1 {
+  display: flex;
+}
+.section1-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  transform: translatex(25%) scale(1.2);
+}
+
+.first-p {
+  font-size: 3em;
+}
+.second-p,
+.third-p {
+  text-align: left;
+  font-size: 1.05em;
+}
+.section1-img {
+  margin-top: 20px;
+  transform: translateY(10%);
+}
+
+.section1-img-buble {
+  position: absolute;
+  right: 38%;
+  z-index: -20;
+  top: -6%;
+}
+
+.section1-img-second {
+  z-index: 1999;
 }
