@@ -17,7 +17,7 @@ body {
 .navbar {
   background-color:#f0f0f0;
   padding: 20px 0;
-  border-bottom: 1px solid #f0f0f0;
+  border-bottom: 1px  #f0f0f0;
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -59,8 +59,6 @@ body {
   letter-spacing: 0px;
   text-decoration: none;
   color: #111;
-  font-weight: 400;
-  font-size: 1rem;
   transition: color 0.3s ease;
 }
 
@@ -80,9 +78,8 @@ body {
 }
 
 .btn-postulez {
-  width: 85;
-  height: 28;
- width: 149;
+ 
+  width: 149;
   height: 52;
   border-radius: 73px;
   gap: 10px;
@@ -98,7 +95,7 @@ body {
   text-align: center;
   
   background-color: #ffffff;
-  color: #00aeb0;
+  color: #009CA8;
   text-decoration: none;
   border: none;
   transition: background-color 0.3s ease, transform 0.2s ease;
@@ -109,74 +106,69 @@ body {
   transform: translateY(-2px);
 }
 .hero-text{
-  background-color: #f0f0f0;
-  width: 558;
-  height: 465;
+  width: 465px;
+  height: 558px;
   top: 216px;
   left: 68px;
   gap: 32px;
-  
 
 }
-
-section { 
-   background-color: #f0f0f0;
-  padding: 60px 20px;
-}
-
-.hero {
-
+.container{
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background-color: #f0f0f0
-  padding: 80px 40px;
+  justify-content: center;
 }
+.txt{
+  width: 558;
+  height: 369;
+  gap: 18px;
 
-.hero-text h1 {
-  font-size: 2.5rem;
 }
+h1{
+  font-family: 'Raleway';
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 126%;
+  letter-spacing: 0%;
 
-.hero-text span {
-  color:skyblue;
 }
+span{
+  color: #009CA8;
+}
+.hero-img{
+  width: 684;
+  height: 690;
+  top: 127px;
+  left: 665px;
 
-.btn {
-  display: inline-block;
-  margin-top: 20px;
-  padding: 12px 24px;
-  background-color:skyblue;
-  color: #fff;
-  border-radius: 8px;
+}
+.box1{
+  background-color: rgb(159, 160, 95);
+  width: 534.0000026317331;
+  height: 534.0000026317331;
+  top: 63.14px;
+  left: 71.42px;
+  transform:rotate( 4.37 deg);
+  opacity: 0.3;
+  border-radius: 60px;
+
+}
+.btn{
+  background: #009CA8;
   text-decoration: none;
-}
+  width: 227;
+  height: 64;
+  border-radius: 73px;
+  gap: 10px;
+  padding-top: 24px;
+  padding-right: 32px;
+  padding-bottom: 24px;
+  padding-left: 32px;
 
-.presentation, .avantages {
-  display: flex;
-  align-items: center;
-  gap: 40px;
 }
-
-.avantages ul {
-  list-style: disc;
-  padding-left: 20px;
-}
-
-.formations .cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 30px;
-}
-
-.card {
-  background: white;
-  padding: 20px;
-  border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-}
-
-.cta {
-  text-align: center;
-  background: #e6f6ff;
-  padding: 60px 20px;
+.img1{
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  border-radius: 30px;
+  object-fit: cover;
 }
